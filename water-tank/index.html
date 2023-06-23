@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>IO Factory | Water Tank Problem</title>
+</head>
+<body>
+  <div class="outside-container">
+    <span>NOTE</span>
+    <p>You can use Output and Input button for one time only</p><br><br>
+    <p>Enter one number at a time only</p>
+    <input type="numbers" id="input-number" placeholder="Enter elements"></input>
+    <button class="add-input"  onclick="addElement()">Add Input</button>
+    <p id="display">Input :</p>
+</div>
+<br>
+<div class="container">
+
+    <div class="table">
+        <table id="inputTable" border="1"></table>
+    </div>
+    <button id="input-button" onclick="generateInputTable()">Show Input Table</button>
+    <p id="result">Output :</p>
+    <div class="table">
+        <table id="outputTable" border="1"></table>
+    </div>
+    <button id="output-button" onclick="showOutputTable()">Output</button><br><br><br>
+    <button id="reset-data" onclick="resetData()">Reset Table Data</button>
+</div>
+<div class="extra-space"></div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
