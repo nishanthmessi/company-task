@@ -1,0 +1,10 @@
+ /* CSS styles for the bar chart */
+ .chart {
+  display: flex;
+}
+.bar {
+  width: 20px;
+  height: 0px;
+  margin-right: 2px;
+  background-color: blue;
+}
